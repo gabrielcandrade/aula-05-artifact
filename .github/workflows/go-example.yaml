@@ -3,7 +3,7 @@ name: Go Build Workflow
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
     - cron: '*/15 * * * MON-SAT'
 
